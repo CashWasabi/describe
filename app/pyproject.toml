@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "describe"
+version = "1.0.0"
+description = "movie database"
+authors = ["Marcel Ochs"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.8",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytz = "^2019.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+pytest-cov = "*"
+mypy = "^0.710.0"
+black = { version = "*", allows-prereleases = true }
+flake8 = "^3.7"
+flake8-comprehensions = "^2.1"
+flake8-import-order = "^0.18.1"
+freezegun = "*"
+graphene = "*"
+sqlalchemy = "*"
+python-language-server = "*"
